@@ -1,0 +1,91 @@
+.not-registered-container {
+  text-align: center;
+  padding: 20px;
+}
+
+.not-registered-heading {
+  font-size: 50px;
+  color: red;
+  margin-bottom: 50px;
+}
+
+.registration-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  max-width: 600px;
+  margin: auto;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+input {
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+  width: 100%;
+}
+
+.submit-btn {
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: none;
+  background-color: #4caf50;
+  color: white;
+  cursor: pointer;
+}
+
+.submit-btn:hover {
+  background-color: #45a049;
+}
+
+.form-data-display {
+  text-align: left;
+  margin-top: 20px;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  max-width: 600px;
+  margin: auto;
+  text-align: center;
+}
+
+/* .form-data-display {
+    margin-top: 20px;
+  } */
+
+.form-data-display h2 {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.submitted-data {
+  border: 1px solid #ccc;
+  padding: 10px;
+
+}
+
+.submitted-data .form-group {
+  margin-bottom: 10px;
+}
+
+.submitted-data label {
+  display: inline-block;
+  width: 200px;
+  /* Adjust as needed */
+  font-weight: bold;
+}
+
+.submitted-data span {
+  display: inline-block;
+  width: calc(100% - 220px);
+  /* Adjust based on label width */
+}
